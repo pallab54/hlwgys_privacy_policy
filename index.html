@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - hlwgys</title>
+    <meta name="description" content="Privacy Policy for hlwgys - Mindful aesthetic social app with reels, stories, 1-to-1 chat, and custom music library.">
+    <style>
+        :root {
+            --primary: #E11D48;
+            --primary-hover: #BE123C;
+            --primary-light: #FFE4E6;
+            --bg-gradient-start: #FFFFFF;
+            --bg-gradient-mid: #FFF1F2;
+            --bg-gradient-end: #FCE7F3;
+            --card-bg: #FFFFFF;
+            --text-dark: #370617;
+            --text-body: #4A1525;
+            --text-muted: #9F496E;
+            --border-color: #FECDD3;
+            --accent-green: #059669;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(180deg, var(--bg-gradient-start) 0%, var(--bg-gradient-mid) 30%, var(--bg-gradient-end) 100%);
+            color: var(--text-body);
+            line-height: 1.68;
+            padding: 32px 16px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 24px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 12px 36px rgba(225, 29, 72, 0.08);
+            padding: 44px 36px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 16px 10px;
+            }
+            .container {
+                padding: 28px 20px;
+                border-radius: 18px;
+            }
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 2px solid var(--primary-light);
+            padding-bottom: 28px;
+            margin-bottom: 32px;
+        }
+
+        .logo-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 72px;
+            height: 72px;
+            background: linear-gradient(135deg, #FF69B4, var(--primary));
+            border-radius: 50%;
+            color: #FFFFFF;
+            font-size: 34px;
+            margin-bottom: 16px;
+            box-shadow: 0 6px 16px rgba(225, 29, 72, 0.25);
+        }
+
+        h1 {
+            color: var(--text-dark);
+            font-size: 30px;
+            font-weight: 800;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        .meta-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 14px;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        .meta-pill {
+            background: var(--primary-light);
+            color: var(--primary);
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        h2 {
+            color: var(--text-dark);
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 32px;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2::before {
+            content: '';
+            display: inline-block;
+            width: 6px;
+            height: 20px;
+            background: var(--primary);
+            border-radius: 4px;
+        }
+
+        p, ul, ol {
+            margin-bottom: 16px;
+            font-size: 15px;
+        }
+
+        ul, ol {
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background: var(--primary-light);
+            border-left: 4px solid var(--primary);
+            padding: 16px 20px;
+            border-radius: 12px;
+            margin: 22px 0;
+            font-size: 14px;
+        }
+
+        .highlight-box strong {
+            color: var(--text-dark);
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+
+        .data-table th, .data-table td {
+            border: 1px solid var(--border-color);
+            padding: 12px 14px;
+            text-align: left;
+        }
+
+        .data-table th {
+            background-color: var(--primary-light);
+            color: var(--text-dark);
+            font-weight: 700;
+        }
+
+        .contact-card {
+            background: #FFF5F7;
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 22px;
+            margin-top: 32px;
+            text-align: center;
+        }
+
+        .contact-card h3 {
+            color: var(--primary);
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+
+        .contact-email {
+            display: inline-block;
+            background: var(--primary);
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: 700;
+            padding: 10px 22px;
+            border-radius: 30px;
+            margin-top: 10px;
+            transition: background 0.2s ease;
+        }
+
+        .contact-email:hover {
+            background: var(--primary-hover);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="logo-badge">🌸</div>
+        <h1>hlwgys Privacy Policy</h1>
+        <div class="subtitle">Simplicity in thought, beauty in craft & mindful social moments</div>
+        <div class="meta-info">
+            <span class="meta-pill">Effective Date: October 4, 2026</span>
+            <span class="meta-pill">App Version: 1.0</span>
+            <span class="meta-pill">Google Play Compliant</span>
+        </div>
+    </div>
+
+    <div class="highlight-box">
+        <strong>Privacy Commitment:</strong> At <strong>hlwgys</strong>, we respect and safeguard your privacy. We are committed to transparency in how we collect, use, and protect your information. We do not sell your personal data to data brokers or third parties.
+    </div>
+
+    <h2>1. Introduction & Developer Information</h2>
+    <p>
+        This Privacy Policy explains how <strong>hlwgys</strong> ("the Application", "we", "us", or "our"), developed and published by <strong>Pallab Jyoti Saikia</strong>, collects, processes, stores, and protects information when you use our mobile application and related services.
+    </p>
+    <p>
+        By downloading, accessing, or using <strong>hlwgys</strong>, you acknowledge that you have read and understood this Privacy Policy and agree to the collection and handling of your information as described herein.
+    </p>
+    <p>
+        <strong>Developer Contact:</strong><br>
+        Developer: Pallab Jyoti Saikia<br>
+        Email: <a href="mailto:pallabjyotisaikia321@gmail.com" style="color: var(--primary); font-weight: 600;">pallabjyotisaikia321@gmail.com</a>
+    </p>
+
+    <h2>2. Information We Collect</h2>
+    <p>We collect information directly provided by you, as well as necessary technical data required to deliver core social features:</p>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Data Elements</th>
+                <th>Purpose</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Account Information</strong></td>
+                <td>Name, username, email address, optional phone number, profile bio, avatar image.</td>
+                <td>To create and authenticate user accounts, maintain user profiles, and identify you to other users on the platform.</td>
+            </tr>
+            <tr>
+                <td><strong>User-Generated Content</strong></td>
+                <td>Photos, videos (reels up to 3 minutes), 24-hour disappearing stories, thoughts/text posts, likes, comments, and uploaded audio tracks.</td>
+                <td>To display your posts in the community feed, play video reels, share stories, and facilitate social interactions.</td>
+            </tr>
+            <tr>
+                <td><strong>One-to-One Messaging</strong></td>
+                <td>Direct chat messages, emojis, and media exchanged between you and other users.</td>
+                <td>To provide end-user peer messaging within the app.</td>
+            </tr>
+            <tr>
+                <td><strong>Music & Audio Data</strong></td>
+                <td>Custom uploaded audio files, trimmed song segments, cover emojis, soundtrack associations.</td>
+                <td>To allow soundtrack attachment to reels, custom music library participation, and audio playback.</td>
+            </tr>
+            <tr>
+                <td><strong>Safety & Moderation</strong></td>
+                <td>Blocked user IDs, report logs, content moderation flags.</td>
+                <td>To enforce community standards, block unwanted users, and report objectionable content.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. Android Device Permissions & Zero Broad Storage</h2>
+    <p>hlwgys adheres strictly to the principle of least privilege. The application requests only permissions strictly necessary for its features:</p>
+    <ul>
+        <li><strong>Camera (<code>android.permission.CAMERA</code>):</strong> Used only when you choose to capture a new photo or record a video reel directly within the app. Camera access is optional (<code>required="false"</code>) and never runs in the background.</li>
+        <li><strong>Microphone (<code>android.permission.RECORD_AUDIO</code>):</strong> Used only while recording video reels or voice audio with explicit user initiation.</li>
+        <li><strong>Zero Broad Storage Permissions:</strong> In full compliance with Google Play Developer Program policies, hlwgys <strong>never</strong> requests broad device storage permissions (such as <code>READ_EXTERNAL_STORAGE</code>, <code>WRITE_EXTERNAL_STORAGE</code>, or <code>MANAGE_EXTERNAL_STORAGE</code>). All photo and video selections use the modern, zero-permission <strong>Android Photo Picker</strong> (<code>ActivityResultContracts.PickVisualMedia</code>).</li>
+        <li><strong>Internet Access (<code>android.permission.INTERNET</code> & <code>ACCESS_NETWORK_STATE</code>):</strong> Required to transmit and receive feed posts, video reels, user stories, messages, and synchronize data with our secure cloud database.</li>
+        <li><strong>Haptic Feedback (<code>android.permission.VIBRATE</code>):</strong> Used to provide pleasant haptic feedback when double-tapping to like posts, sending chat messages, or toggling settings.</li>
+    </ul>
+
+    <h2>4. How We Use Your Information</h2>
+    <p>We process your data strictly to operate and enhance your user experience:</p>
+    <ul>
+        <li>To provide seamless authentication, account management, and profile customization.</li>
+        <li>To enable video reel scrolling, full-screen playback, and personalized soundscapes.</li>
+        <li>To facilitate 24-hour auto-expiring stories (automatically deleted after 24 hours).</li>
+        <li>To power 1-to-1 direct messaging with real-time delivery and notification preferences.</li>
+        <li>To maintain community safety through blocking, muting, reporting, and moderation controls.</li>
+    </ul>
+
+    <h2>5. Third-Party Services & Cloud Infrastructure</h2>
+    <p>hlwgys utilizes trusted, industry-standard third-party service providers:</p>
+    <ul>
+        <li><strong>Supabase:</strong> Provides backend infrastructure including PostgreSQL database and user authentication. Data stored in Supabase is secured using Row-Level Security (RLS) policies to ensure that only authorized users can access or modify their content.</li>
+        <li><strong>Apple Music / iTunes Public Preview CDNs:</strong> Used solely to stream short 30-second music sample previews for curated background tracks in video reels.</li>
+        <li><strong>No Analytics Trackers or Ad Networks:</strong> hlwgys does not embed third-party advertising SDKs, behavioral tracking trackers, or monetization telemetry.</li>
+    </ul>
+
+    <h2>6. Data Retention, Auto-Expiration & Deletion</h2>
+    <p>We respect your right to control your personal data:</p>
+    <ul>
+        <li><strong>24-Hour Stories:</strong> Stories automatically expire and are removed 24 hours after creation.</li>
+        <li><strong>Post & Reel Deletion:</strong> You have full control to edit or permanently delete your posts, reels, stories, comments, and uploaded audio tracks at any time within the app interface.</li>
+        <li><strong>In-App Cache Clearing:</strong> You can purge all locally cached media, temporary files, and session credentials with a single tap in <em>Profile &rarr; Clear Cache Files & Stored Data</em>.</li>
+        <li><strong>Account Deletion:</strong> You have the right to request the permanent deletion of your account and all associated data. You can delete your account by contacting us at <a href="mailto:pallabjyotisaikia321@gmail.com" style="color: var(--primary);">pallabjyotisaikia321@gmail.com</a> with your registered email or username. All associated profiles, posts, reels, comments, and messages will be permanently deleted from our servers within 30 days of verified request.</li>
+    </ul>
+
+    <h2>7. Children's Privacy (COPPA Compliance)</h2>
+    <p>
+        hlwgys is not directed to children under the age of 13. We do not knowingly collect, solicit, or maintain personal information from anyone under the age of 13. If you are a parent or guardian and believe that your child has provided us with personal information without your consent, please contact us immediately at <a href="mailto:pallabjyotisaikia321@gmail.com" style="color: var(--primary);">pallabjyotisaikia321@gmail.com</a>, and we will take prompt steps to permanently remove such information and terminate the account.
+    </p>
+
+    <h2>8. Security Measures</h2>
+    <p>
+        We employ administrative, technical, and physical safeguards designed to protect personal data against accidental, unlawful, or unauthorized destruction, loss, alteration, access, disclosure, or use. Cloud communications are encrypted in transit using Transport Layer Security (TLS/HTTPS).
+    </p>
+
+    <h2>9. Changes to This Privacy Policy</h2>
+    <p>
+        We may update this Privacy Policy from time to time to reflect updates in our app features or regulatory requirements. Any modifications will be posted directly on this page with an updated "Effective Date". We encourage you to review this Privacy Policy periodically.
+    </p>
+
+    <div class="contact-card">
+        <h3>Questions or Privacy Inquiries?</h3>
+        <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please contact developer Pallab Jyoti Saikia directly:</p>
+        <a href="mailto:pallabjyotisaikia321@gmail.com" class="contact-email">Contact Privacy Team: pallabjyotisaikia321@gmail.com</a>
+    </div>
+
+    <div class="footer">
+        &copy; 2026 hlwgys by Pallab Jyoti Saikia. All rights reserved.<br>
+        Available on Google Play Store.
+    </div>
+</div>
+
+</body>
+</html>
